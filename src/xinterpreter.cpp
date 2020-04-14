@@ -216,7 +216,7 @@ namespace xeus
         {
             nl::json content;
             content["prompt"] = prompt;
-            content["pwd"] = pwd;
+            content["password"] = pwd;
             m_stdin("input_request", nl::json::object(), std::move(content));
         }
     }

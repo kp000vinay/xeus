@@ -30,6 +30,10 @@
 # Vim tmp files
 *.swp
 
+# tags
+tags
+tags.lock
+
 # Build directory
 build/
 
